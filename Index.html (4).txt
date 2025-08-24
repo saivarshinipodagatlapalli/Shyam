@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Online Portfolio</title>
+    <style>
+        body {
+            background-color: lightgrey; /* Background color */
+            color: maroon; /* Font color */
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: darkblue;
+        }
+
+
+        /* General button style */
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+
+        /* Different button colors */
+        .github {
+            background-color: black;
+        }
+        .github:hover {
+            background-color: #333;
+        }
+
+
+        .linkedin {
+            background-color: #0077b5; /* LinkedIn blue */
+        }
+        .linkedin:hover {
+            background-color: #005582;
+        }
+
+
+        .contact {
+            background-color: green;
+        }
+        .contact:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Portfolio</h1>
+    <p>Age: 19</p>
+    <p>Skills: HTML, CSS, Python</p>
+    <p>Projects: Online Portfolio Website</p>
+    <p>Extra Curricular Activities: Drawing, Singing</p>
+    <p>Email: myemail@example.com</p>
+
+
+    <h2>Links</h2>
+    <!-- Buttons with different colors -->
+    <a href="https://github.com" target="_blank" class="github">My GitHub</a>
+    <a href="https://www.linkedin.com" target="_blank" class="linkedin">My LinkedIn</a>
+    <a href="contact.html" class="contact">Contact Me Page</a>
+</body>
+</html>
